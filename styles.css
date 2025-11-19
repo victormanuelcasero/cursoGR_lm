@@ -1,0 +1,42 @@
+/* Ajusta el tamaño global de la fuente */
+.reveal {
+  font-size: 28px; /* Puedes cambiar a 30px, 32px, etc. */
+}
+
+/* Opcional: tamaño específico para títulos */
+.reveal h1 {
+  font-size: 48px;
+}
+
+.reveal h2 {
+  font-size: 36px;
+}
+
+.reveal h3 {
+  font-size: 30px;
+}
+
+
+.titulo-granate {
+  color: #A31D2F;
+}
+
+reveal h1, .reveal h2, .reveal h3 {
+  color: #A31D2F; /* granate UCLM */
+}
+
+
+.reveal .title-slide h1 {
+  color: #A31D2F; /* granate UCLM */
+  font-size: 60px; /* opcional: tamaño grande */
+  font-weight: bold;
+}
+
+.reveal .slide-logo {
+  position: absolute;
+  top: 15px;      /* distancia desde arriba */
+  right: 10px;    /* distancia desde la derecha */
+  left: auto;     /* desactiva posición por defecto */
+  height: 60px;   /* ajusta tamaño del logo */
+}
+
